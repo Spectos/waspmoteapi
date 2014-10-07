@@ -597,7 +597,7 @@ DIClass::DIClass(uint8_t channel)
 //!*************************************************************************************
 float DIClass::readDI()
 {
-	return SensorSW.getMeasure(DI_CHANNEL, ANA3);
+	return SensorSW.getMeasure(DIChannel, DISwitch);
 }
 
 
